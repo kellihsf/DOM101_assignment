@@ -27,30 +27,26 @@ elementParagraph.textContent = "Cheese and biscuits gouda camembert de normandie
 containerDIV.appendChild(elementParagraph)
 
 
-let elementParapragh2 = document.createElement("p2")
+let elementParapragh2 = document.createElement("p")
 elementParapragh2.textContent = "Manchego jarlsberg caerphilly. Say cheese parmesan emmental fromage frais blue castello who moved my cheese stinking bishop mascarpone. Pepper jack halloumi fromage frais mozzarella stinking bishop cauliflower cheese cheese strings cheese and biscuits. Cauliflower cheese cheeseburger."
 containerDIV.appendChild(elementParapragh2)
 
-let elementParapragh3 = document.createElement("p3")
+let elementParapragh3 = document.createElement("p")
 elementParapragh3.textContent = "Macaroni cheese danish fontina cheesy grin. Brie bavarian bergkase pecorino bocconcini red leicester chalk and cheese goat stilton. When the cheese comes out everybody's happy cheese slices gouda gouda boursin the big cheese brie airedale. Ricotta say cheese stinking bishop."
 containerDIV.appendChild(elementParapragh3)
 
 let myButton = document.createElement("button")
-myButton.textContent = "Click this"
+myButton.textContent = "Click this..."
 containerDIV.appendChild(myButton)
 
 myButton.addEventListener("click", () => {
-    alert("The button was clicked!")
     bodyElement.style.backgroundColor = "yellow";
 })
 
-let myButton2 = document.createElement("button2")
-myButton.textContent = "Now Click this"
+let myButton2 = document.createElement("button")
+myButton2.textContent = "Now Click this"
 containerDIV.appendChild(myButton2);
 
 myButton2.addEventListener("click", () => {
-    alert("The button was clicked!")
     bodyElement.style.backgroundColor = "green";
 })
-
-// elementH1.style.fontsize = "20px";
